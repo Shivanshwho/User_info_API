@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 import psycopg2
 import requests
 import json
-app = Flask(__name__)
-DB_HOST = 'localhost'
+app = Flask(__name__)      
+DB_HOST = 'localhost'      # replace all these details with the appropriate database details for connection
 DB_PORT = '5432'
 DB_NAME = 'user_info'
 DB_USER = 'postgres'
